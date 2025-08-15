@@ -6,6 +6,8 @@
 
 ## Description
 
+I created this script when I was doing the Eureka machine on HackTheBox. Following [Maxim Tyukov](https://engineering.backbase.com/people/maxim-tyukov)'s explanation on [Backbase Engineering](https://engineering.backbase.com/2023/05/16/hacking-netflix-eureka), I was able to create this script.
+
 This script demonstrates how a malicious service can be registered on a Eureka server, potentially enabling **Server-Side Request Forgery (SSRF)**. It sends a crafted JSON payload to the Eureka API to register a custom service instance.
 
 The PoC targets a Eureka service accessible from the Internet, allowing the tester to simulate internal requests through the vulnerable service.
