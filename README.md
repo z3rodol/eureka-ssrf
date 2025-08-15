@@ -15,7 +15,7 @@ The PoC targets a Eureka service accessible from the Internet, allowing the test
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/eureka-ssrf.git
+git clone https://github.com/z3rodol/eureka-ssrf.git
 cd eureka-ssrf
 ```
 
