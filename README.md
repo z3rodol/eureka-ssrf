@@ -26,6 +26,10 @@ pip install requests
 ```
 3. Configure the script:
 
+EUREKA_USER : User of the service
+
+EUREKA_PASSWORD : Password of the service
+
 EUREKA_URL : URL of the Eureka server (include credentials if necessary)
 
 MY_IP : IP address where your malicious service is listening
