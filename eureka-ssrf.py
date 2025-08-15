@@ -1,7 +1,7 @@
 import requests
 
 """
-Exploit Author: Délalom Wilfried Telli (z3rodol)
+Exploit Author: z3rodol
 Exploit Date: August, 2025
 """
 
