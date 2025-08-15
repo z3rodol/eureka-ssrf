@@ -32,17 +32,23 @@ MY_IP : IP address where your malicious service is listening
 
 TARGET_PORT : Port for the target internal service
 
-
-
 4. Run the script:
 ```bash
 python eureka_ssrf_poc.py
 ```
+
 5. Check the output:
 
 - [+] Malicious service successfully registered. – PoC worked
 
 - [-] Failure (CODE) – PoC failed
+
+
+6. Launch a listener
+
+```bash
+nc -lnvp 8081
+```
 
 # How it works
 
